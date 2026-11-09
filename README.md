@@ -9,20 +9,6 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F7F7F7&width=450&lines=Sistema+Musical+-+Atividade+Pr%C3%A1tica+SENAI)](https://git.io/typing-svg)
 
-<div align="center">
-
-### 📚 Atividade Avaliativa - Front-End Web
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=007BFF&width=600&height=120&vCenter=true&lines=Projeto+Sistema+Musical+-+5+Telas)](https://git.io/typing-svg)
-
-![Status](https://img.shields.io/badge/Status-Entregue-success)
-![HTML5](https://img.shields.io/badge/HTML5-Sem%C3%A2ntico-orange)
-![CSS3](https://img.shields.io/badge/CSS3-Responsivo-blue)
-![Repositório](https://img.shields.io/badge/GitHub-P%C3%BAblico-green)
-
-### Equipe: <span style="color:#007BFF">musicas-maria-ana-victor-gustavo</span>
-
-</div>
 
 ---
 
@@ -34,7 +20,7 @@ Todos os arquivos estão organizados de forma **solta na raiz do repositório** 
 
 ---
 
-# **👥 Integrantes da Equipe**
+# **👥 Informações **
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=007BFF&width=600&height=120&vCenter=true&lines=Informações+do+Projeto)(https://git.io/typing-svg)
 
@@ -42,11 +28,13 @@ Todos os arquivos estão organizados de forma **solta na raiz do repositório** 
 | Autora | Função |
 | :--- | :--- |
 | **Maria Eduarda Vieira** | Desenvolvedora Front-End |
-| :--- | :--- |
+
+
 | Data de Início | Data de Término |
 | :--- | :--- |
 | **19/10** | **09/11** |
-| :--- | :--- |
+
+
 | Professores | Matéria|
 | :--- | :--- |
 | **André Luís Denani** | LIMA |
