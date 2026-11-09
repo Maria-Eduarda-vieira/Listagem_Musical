@@ -66,15 +66,15 @@ O projeto cumpre a exigência de ser composto pelas 5 telas principais solicitad
 
 * **Estilo Unificado**: Todas as 5 páginas compartilham um **único arquivo de estilo** denominado `style.css`.
 * **Paleta de Cores**: Definida centralmente no bloco `:root` do arquivo CSS, facilitando a manutenção e garantindo a identidade visual do tema.
-* **Layout Responsivo**: Testado e adaptado para visualização em computadores (Desktop) e dispositivos móveis (Smartphones/Tablets) via Flexbox e CSS Grid.
+* **Layout Responsivo**: Testado e adaptado para visualização em computadores  e dispositivos móveis (Smartphones/Tablets).
 
 ---
 
-<h1 align="center">
+
   <span style="font-family: 'Arial Black', sans-serif; font-size: 3em; color: #0040FF; font-weight: 900; display: block; border-bottom: 8px solid #0040FF; padding-bottom: 10px;">
      CHECKLIST DE TESTES E VALIDAÇÃO
   </span>
-</h1>
+
 
 Antes da submissão final do link, foram executados e validados todos os testes preventivos solicitados:
 
@@ -86,12 +86,14 @@ Antes da submissão final do link, foram executados e validados todos os testes 
 
 ---
 
+
+
 <div align="center">
 
 ### SENAI "A. Jacob Lafer"
 
 **Curso Técnico em Desenvolvimento de Sistemas**
 
-**Link do Repositório enviado no Google Sala de Aula**
+
 
 </div>
