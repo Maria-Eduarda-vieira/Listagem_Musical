@@ -1,8 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F7F7F7&width=435&lines=Sistema+Musical+-+Gest%C3%A3o+de+Artistas+e+M%C3%Basicas)](https://git.io/typing-svg)
 
-<div align="center">
-
-### Trabalho Prático / Atividade Escolar - SENAI "A. Jacob Lafer"
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=007BFF&width=600&height=120&vCenter=true&lines=Sistema+Musical+-+Gest%C3%A3o+de+Artistas+e+M%C3%Basicas)](https://git.io/typing-svg)
 
@@ -40,17 +36,21 @@ Todos os arquivos estão organizados de forma **solta na raiz do repositório** 
 
 # **👥 Integrantes da Equipe**
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=007BFF&width=600&height=120&vCenter=true&lines=Integrantes+do+Grupo)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=007BFF&width=600&height=120&vCenter=true&lines=Informações+do+Projeto)(https://git.io/typing-svg)
 
-Os nomes de todos os integrantes estão devidamente identificados em um comentário no topo do arquivo `login.html`:
 
-| Integrante | Função |
+| Autora | Função |
 | :--- | :--- |
 | **Maria Eduarda Vieira** | Desenvolvedora Front-End |
-| **Ana Júlia Valentim de Maria** | Desenvolvedora Front-End |
-| **Maria Eduarda Vilela de Brito** | Desenvolvedora Front-End |
-| **Victor Hugo Franck Voltarelli** | Desenvolvedor Front-End |
-| **Gustavo Schimming** | Desenvolvedor Front-End |
+| :--- | :--- |
+| Data de Início | Data de Término |
+| :--- | :--- |
+| **19/10** | **09/11** |
+| :--- | :--- |
+| Professores | Matéria|
+| :--- | :--- |
+| **André Luís Denani** | LIMA |
+| **Raul Porto Lopes** | LIMA |
 
 ---
 
