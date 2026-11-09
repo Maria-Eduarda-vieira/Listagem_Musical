@@ -11,57 +11,99 @@
 ![CSS3](https://img.shields.io/badge/CSS3-Estiliza%C3%A7%C3%A3o-blue)
 ![Metodologia](https://img.shields.io/badge/Metodologia-SCRUM-red)
 
-### Desenvolvido pela equipe <span style="color:#007BFF">MindTech</span>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F7F7F7&width=450&lines=Sistema+Musical+-+Atividade+Pr%C3%A1tica+SENAI)](https://git.io/typing-svg)
+
+<div align="center">
+
+### 📚 Atividade Avaliativa - Front-End Web
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=007BFF&width=600&height=120&vCenter=true&lines=Projeto+Sistema+Musical+-+5+Telas)](https://git.io/typing-svg)
+
+![Status](https://img.shields.io/badge/Status-Entregue-success)
+![HTML5](https://img.shields.io/badge/HTML5-Sem%C3%A2ntico-orange)
+![CSS3](https://img.shields.io/badge/CSS3-Responsivo-blue)
+![Repositório](https://img.shields.io/badge/GitHub-P%C3%BAblico-green)
+
+### Equipe: <span style="color:#007BFF">musicas-maria-ana-victor-gustavo</span>
 
 </div>
 
 ---
 
-# **Sobre o Projeto**
+# **📌 Sobre a Entrega do Projeto**
 
-Este projeto consiste no desenvolvimento do front-end web para um **Sistema Musical**, criado para permitir o gerenciamento completo de artistas, álbuns e músicas. O sistema oferece uma interface moderna, intuitiva e totalmente responsiva, funcionando perfeitamente em computadores, tablets e smartphones.
+Este repositório contém os arquivos do **Sistema Musical**, desenvolvido conforme os requisitos estabelecidos na atividade prática do curso. 
 
-A aplicação inclui controle de acesso (login), menu principal navegação simplificada, cadastro de artistas e obras musicais, além de uma biblioteca interativa com filtros de busca.
-
----
-
-# **Objetivos Principais**
-
-Aqui vai uma breve lista das principais finalidades e funcionalidades do projeto:
-
-✅ Permitir a autenticação de usuários via tela de Login.  
------------------------------------------------------  
-✅ Cadastrar e gerenciar informações dos artistas e seus gêneros musicais.  
-------------------------------------------------------  
-✅ Cadastrar músicas vinculadas a cada artista com suporte a capas e links do YouTube.  
--------------------------------------------------------  
-✅ Exibir a Biblioteca Musical completa com filtros rápidos por busca, artista e gênero.  
------------------------------------------------------------------------------------  
-✅ Garantir responsividade total via CSS Flexbox/Grid para acesso mobile e desktop.  
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Todos os arquivos estão organizados de forma **solta na raiz do repositório** (sem uso de pastas compactadas em `.zip`) e o repositório está configurado como **público** para facilitar o acesso e correção por parte do professor.
 
 ---
 
-# **Nossa Equipe**
+# **👥 Integrantes da Equipe**
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=007BFF&width=600&height=120&vCenter=true&lines=MindTech)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=007BFF&width=600&height=120&vCenter=true&lines=Integrantes+do+Grupo)](https://git.io/typing-svg)
 
-O desenvolvimento foi realizado utilizando a metodologia **SCRUM** para organização das tarefas e entregas das etapas.
+Os nomes de todos os integrantes estão devidamente identificados em um comentário no topo do arquivo `login.html`:
 
-| Função | Integrante |
+| Integrante | Função |
 | :--- | :--- |
-| <span style="color:#FF2E93">**Product Owner**</span> | Maria Eduarda Vieira |
-| <span style="color:#A020F0">**Scrum Master**</span> | Ana Júlia Valentim de Maria |
-| <span style="color:#007BFF">**Dev**</span> | Maria Eduarda Vilela de Brito |
-| <span style="color:#007BFF">**Dev**</span> | Victor Hugo Franck Voltarelli |
-| <span style="color:#007BFF">**Dev**</span> | Gustavo Schimming |
+| **Maria Eduarda Vieira** | Desenvolvedora Front-End |
+| **Ana Júlia Valentim de Maria** | Desenvolvedora Front-End |
+| **Maria Eduarda Vilela de Brito** | Desenvolvedora Front-End |
+| **Victor Hugo Franck Voltarelli** | Desenvolvedor Front-End |
+| **Gustavo Schimming** | Desenvolvedor Front-End |
 
 ---
 
 <h1 align="center">
   <span style="font-family: 'Arial Black', sans-serif; font-size: 3em; color: #0040FF; font-weight: 900; display: block; border-bottom: 8px solid #0040FF; padding-bottom: 10px;">
-    SPRINT 1 - ESTRUTURA E LOGINradas, aplicando boas práticas de marcação semântica em HTML5 e reutilização de estilos através do CSS3. A estrutura desenvolvida deixa o projeto pronto para futuras integrações com rotas back-end e banco de dados.
+     ESTRUTURA E REQUISITOS (5 TELAS)
+  </span>
+</h1>
 
-SENAI "A. Jacob Lafer"
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=007BFF&width=600&height=120&vCenter=true&lines=TELAS+E+ARQUIVOS+DO+SISTEMA)](https://git.io/typing-svg)
 
-Curso Técnico em Desenvolvimento de Sistemas - 2026
+O projeto cumpre a exigência de ser composto pelas 5 telas principais solicitadas, todas conectadas por links de navegação interna:
+
+| # | Tela Requisitada | Arquivo HTML | Conteúdo da Página |
+| :-: | :--- | :--- | :--- |
+| **1** | **Login** | `login.html` | Autenticação com credenciais de teste e comentário dos integrantes no topo. |
+| **2** | **Menu** | `index.html` | Painel central de navegação rápida para as demais seções do sistema. |
+| **3** | **Cadastro do Criador** | `cadastro_artista.html` | Formulário para cadastro dos artistas e tabela com os artistas inseridos. |
+| **4** | **Cadastro da Obra** | `cadastro_musica.html` | Formulário para cadastro das faixas musicais com capas e links do YouTube. |
+| **5** | **Listagem** | `listagem_musical.html` | Biblioteca musical completa com área de filtros (busca, artista e gênero). |
+
+---
+
+# **🎨 Estilização e Responsividade**
+
+* **Estilo Unificado**: Todas as 5 páginas compartilham um **único arquivo de estilo** denominado `style.css`.
+* **Paleta de Cores**: Definida centralmente no bloco `:root` do arquivo CSS, facilitando a manutenção e garantindo a identidade visual do tema.
+* **Layout Responsivo**: Testado e adaptado para visualização em computadores (Desktop) e dispositivos móveis (Smartphones/Tablets) via Flexbox e CSS Grid.
+
+---
+
+<h1 align="center">
+  <span style="font-family: 'Arial Black', sans-serif; font-size: 3em; color: #0040FF; font-weight: 900; display: block; border-bottom: 8px solid #0040FF; padding-bottom: 10px;">
+     CHECKLIST DE TESTES E VALIDAÇÃO
+  </span>
+</h1>
+
+Antes da submissão final do link, foram executados e validados todos os testes preventivos solicitados:
+
+- [x] **Abertura do Sistema**: `login.html` configurado como ponto de partida da aplicação.
+- [x] **Navegação Contínua**: Links funcionais permitindo transição entre todas as 5 telas sem erros de rota.
+- [x] **Validação de Formulários**: Atributo `required` aplicado aos campos obrigatórios para impedir envios em branco.
+- [x] **Visualização Mobile**: Interface validada via modo de inspeção/celular (`F12`).
+- [x] **Arquivos Descompactados**: Todos os arquivos enviados diretamente na raiz do repositório público no GitHub.
+
+---
+
+<div align="center">
+
+### SENAI "A. Jacob Lafer"
+
+**Curso Técnico em Desenvolvimento de Sistemas**
+
+**Link do Repositório enviado no Google Sala de Aula**
+
+</div>
