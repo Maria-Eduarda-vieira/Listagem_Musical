@@ -20,7 +20,7 @@ Todos os arquivos estão organizados de forma **solta na raiz do repositório** 
 
 ---
 
-# **👥 Informações **
+# 👥 Informações 
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=007BFF&width=600&height=120&vCenter=true&lines=Informações+do+Projeto)
 
@@ -85,8 +85,11 @@ Antes da submissão final do link, foram executados e validados todos os testes 
 - [x] **Arquivos Descompactados**: Todos os arquivos enviados diretamente na raiz do repositório público no GitHub.
 
 ---
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=007BFF&width=600&height=120&vCenter=true&lines=COMO+ME+AJUDOU)](https://git.io/typing-svg)
 
 
+
+----
 
 <div align="center">
 
