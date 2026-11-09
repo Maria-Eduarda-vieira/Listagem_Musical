@@ -22,23 +22,23 @@ Todos os arquivos estão organizados de forma **solta na raiz do repositório** 
 
 # **👥 Informações **
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=007BFF&width=600&height=120&vCenter=true&lines=Informações+do+Projeto)(https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=007BFF&width=600&height=120&vCenter=true&lines=Informações+do+Projeto)
 
 
-| Autora | Função |
+| Autora | Função                                     |
 | :--- | :--- |
 | **Maria Eduarda Vieira** | Desenvolvedora Front-End |
 
 
-| Data de Início | Data de Término |
+| Data de Início | Data de Término                    |
 | :--- | :--- |
-| **19/10** | **09/11** |
+| **19/10** | **09/11**                               |
 
 
-| Professores | Matéria|
+| Professores | Matéria                               |
 | :--- | :--- |
-| **André Luís Denani** | LIMA |
-| **Raul Porto Lopes** | LIMA |
+| **André Luís Denani** | LIMA                        |
+| **Raul Porto Lopes** | LIMA                         |
 
 ---
 
