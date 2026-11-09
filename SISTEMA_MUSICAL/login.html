@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!-- arquivo em html -->
+<html lang="pt-br">
+    <!-- idioma pt-br -->
+<head>
+    <!-- configurações da página -->
+    <meta charset="UTF-8">
+    <!-- aceita acentos e caracteres a mais -->
+    <meta name="viewport" 
+    content="width=device-width, initial-scale=1.0">
+    <!-- se adapta ao meio que for acessado (celular, computador etc) -->
+    <title>Login - Sistema Musical</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100
+100%27><text y=%27.9em%27 font-size=%2790%27>🎵</text></svg>">
+<!-- Ícone da página desenhado no código -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!-- Body é tudo que aparece na página
+ 
+--> 
+
+<!-- Class é um apelido que incorpora o CSS no arquivo -->
+
+
+<body class="login-page">
+
+    <!-- login-card é a caixa branca que guarda o login inteiro. -->
+
+    <!--  div é uma parte genérica na estrutura -->
+
+    <div class="login-card">
+
+        <!-- login-header: título e subtítulo -->
+
+        <div class="login-header">
+
+            <!-- H1 é utilizado pro título principal -->
+            <h1>🎵 Sistema Musical</h1>
+            <!-- p indica parágrafo -->
+            <p>Entre com suas credenciais</p>
+        </div>
+
+        <!-- FORM define o formuláriod e login -->
+         <!-- method=POST envia os dados escondidos -->
+          <!-- action="#" em um primeior momento não vai enviar para nenhum lugar-->
+
+          <form method="post" action="#">
+
+            <!-- form-group junta o label e o input -->
+             <div class="form-group">
+
+             <!-- for="usuário" foca o campo -->
+              <label for="usuario">Usuário</label>
+              <input type="text"
+              id="usuario" name="usuario" required autocomplete="username" placeholder="Seu usuário">
+
+              <!-- type define que o que vai ser recebido vai ser um texto. 
+               Name é o nome do dado que o PHP vai receber dps
+               
+               required indica que precisa ser preenchido
+               autocomplete faz com que o navegador indique o usuário salvo-->
+            </div>
+
+            <div class="form-group">
+                <label for="senha">Senha:</label>
+                <input type="password"
+                id="senha"
+                 required 
+                 autocomplete="current-password" 
+                 placeholder="Sua senha">
+            </div>
+
+            <!-- criando um botão do tipo submit (para enviar o formulário
+             ) -->
+            <button type="submit" class="btn-primary">Entrar</button>          </form>
+
+            <div class="login-hint">
+                <strong>Credenciais de teste</strong>
+                <!-- deixa em negrito -->
+                 <br>
+                 Usuário: <code>admin</code> &nbsp; &nbsp; Senha:  <code>123</code>         </div>
+    </div>
+
+    
+</body>
+</html>

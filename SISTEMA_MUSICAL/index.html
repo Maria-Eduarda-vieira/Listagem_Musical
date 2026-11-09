@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!-- arquivo em html -->
+<html lang="pt-br">
+    <!-- idioma é pt-br -->
+<head>
+    <meta charset="UTF-8">
+    <!-- aceita acentos e caracteres especiais -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- se adapta a abrir no celular e demais dispositivos -->
+    <title>Menu Principal- Sistema Musical</title>
+
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100
+100%27><text y=%27.9em%27 font-size=%2790%27>🎵</text></svg>">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--´parte visual do texto -->
+    <!-- container é uma caixa com largura máxima e centralizada.
+      -->
+
+      <div class="container">
+
+        <!-- top bar é a barra de cima, joga o botão sair pra direita -->
+
+        <div class="topbar">
+
+            <!-- adicionar um link com cara de botão -->
+
+            <!-- Na sprint2, ele vai ser o logout.php, para encerrar a sessão -->
+             <a href="login.html" class="btn-back">🚪Sair</a>
+        </div>
+
+        <div class="page-header">
+            <h1>🎵 Sistema Musical</h1>
+            <!-- H1 é o título principal -->
+
+            <!-- "admin" está fixo (dado inventado). Na Sprint 2 o PHP mostra o nome de quem entrou, ou seja, do usuário. -->
+
+            <p>Olá, <strong>admin!</strong> O que deseja fazer?</p>
+        </div>
+
+        <!--  menu-grid é a grade dos 3 cards.-->
+          <!-- cada menu-card tem um link que ocupa o card inteiro. -->
+
+        <div class="menu-grid">
+
+            <div class="menu-card">
+            <a href="cadastro_artista.html">
+                <div class="menu-card-icon">🎤</div>
+                <div class="menu-card-title">Gerenciar Artistas</div>
+                <div class="menu-card-desc"> Cadastre e edite artistas</div>
+            </a>
+        </div>
+
+        <div class="menu-card">
+            <a href="cadastro_musica.html">
+                <div class="menu-card-icon">🎵</div>
+                <div class="menu-card-title">Cadastrar Músicas</div>
+
+                <div class="menu-card-desc">Adicione músicas ao sistema</div>
+            </a>
+        </div>
+
+        <div class="menu-card">
+
+            <a href="listagem_musical.html">
+                <div class="menu-card-icon">🎼</div>
+                <div class="menu-card-title">Biblioteca Musical</div>
+                <div class="menu-card-desc">Visualize e filtre todas as músicas</div>
+            </a>
+        </div>
+      </div>
+    </div>
+</body>
+</html>

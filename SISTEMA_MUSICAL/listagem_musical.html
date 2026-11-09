@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Musical- Sistema Musical</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100
+100%27><text y=%27.9em%27 font-size=%2790%27>🎵</text></svg>">
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <div class="container">
+<!-- Cabeçalho da página, incluindo um título à esquerda e os botões à direita devido ao page-header-bar. Ela se repete nos cadastros -->
+ <div class="page-header-bar">
+    <h2>🎼 Biblioteca Musical</h2> 
+    <!-- tamanho da fonte -->
+     <div class="header-actions">
+
+        <!-- Insere dois links pareçendo botão.
+         btn-back volta ao menu e btn-primary avança para o cadastro -->
+
+        <a href="index.html" class="btn-back">Voltar ao Menu</a>
+
+        <a href="cadastro_musica.html" class="btn-primary">➕ Nova Música</a>
+     </div>
+ </div>
+
+
+
+ <!--  Filtros -->
+
+ <!--  Agora eles só aparecem ( não filtram de verdade)
+   
+ method="get": Na sprint 2 a pessoa escolhe o que vai aparecer no endereço-->
+
+ <div class="filters">
+    <form method="get" class="filter-form" action="#">
+
+        <!-- filter-group: os 3 filtros. O CSS flex coloca ladoa lado-->
+<div class="filter-group">
+
+    <!--  filter-item: um filtro = rótulo + campo-->
+
+    <div class="filter-item">
+        <label for="busca">Busca geral</label>
+        <input type="text" name="busca" id="busca" placeholder="Título, álbum ou artista..">
+    </div>
+    <div class="filter-item">
+        <label for="artista">Artista</label>
+        <!-- select: lista para escolha -->
+         <!-- value="" (vazio), indica que nenhum item está selecionado-->
+          <select name="artista" id="artista">
+            <option value="">Todos os artistas</option>
+            <option value="1">Djavan</option>
+            <option value="2">Marisa Monte</option>
+        
+          </select>
+        
+    </div>
+
+    <div class="filter-item">
+        <label for="genero">Gênero</label>
+        <select name="genero" id="genero">
+            <option value="">Todos os gêneros</option>
+            <option value="MPB">MPB</option>
+         
+</select>   
+ </div>
+
+</div>
+
+<!-- filter-actions é ação de aplicar os filtros -->
+ <div class="filter-actions">
+    <button type="submit" class="btn-primary">🔍 Filtrar</button>
+ </div>
+    </form>
+ </div>
+    
+ <!-- Tabela de Músicas -->
+  <!-- table-container é a caixa branca com sombra em volta da tabela -->
+
+  <div class="table-container">
+    <table>
+        <thead>
+            <tr>
+                <!-- col-capa deixa o CSS controlar a largura das colunas -->
+                 <th class="col-capa">Capa</th>
+                 <th>Título</th>
+                 <th>Artistas</th>
+                 <th>Álbum</th>
+                 <th>Gênero</th>
+                 <th class="col-youtube">Youtube</th>
+                 <th class="col-acoes">Ações</th>
+            </tr>
+        </thead>
+
+        <!-- tbody é o corpo da tabela. Tr é a linha que indica uma música -->
+         <!-- Na Sprint 2, o PHP cria estas linhas com base no banco de dados -->
+
+         <tbody>
+            <tr>
+                <td><div class="no-image">Sem<br>capa</div></td>
+                <td>Oceano</td>
+                <td>Djavan</td>
+                <td>Luz</td>
+                <td>MPB</td>
+
+                <!-- target="-blank
+                 " abre um link em uma nova aba-->
+
+                 <td><a href="#" target="_blank" class="btn-youtube">▶ Assistir</a></td>
+
+                 <td>
+                    <!-- action-button junta e edita e exclui lado a lado (flex) -->
+
+                    <div class="action-buttons">
+                        <a href="#" class="btn-edit">✏️ Editar</a>
+                        <a href="#" class="btn-delete">🗑️ </a>
+                    </div>
+                 </td>
+            </tr>
+            <tr>
+                <td><div class="no-image">Sem<br>capa</div></td>
+                <td> Infinito Particular</td>
+                <td>Marisa Monte</td>
+                <td>-</td>
+                <!-- sem álbum -->
+                 <td>MPB</td>
+                 <td><a href="#" target="_blank" class="btn-youtube">▶ Assistir</a></td>
+
+                 <td>
+                    <div class="action-buttons">
+                        <a href="#" class="btn-edit">✏️ Editar</a>
+                        <a href="#" class="btn-delete">🗑️ </a>
+                    </div>
+                 </td>
+            </tr>
+         </tbody>
+    </table>
+    
+  </div>
+  </div>
+ </body>
+</html>
